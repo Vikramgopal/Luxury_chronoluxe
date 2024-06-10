@@ -1,0 +1,81 @@
+/* **************************** */
+/* BELOWE 1328PX(LAPTOPS) */
+/* **************************** */
+
+@media (max-width: 83em) {
+  .grid--4-cols {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .address-col {
+    grid-row: span 2;
+  }
+}
+/* **************************** */
+/* BELOWE 1200PX(;ANDSCAP TABLET) */
+/* **************************** */
+
+@media (max-width: 75em) {
+  .header-text {
+    margin-right: 0;
+  }
+  .grid--4-cols {
+    padding: 6rem 8rem;
+  }
+}
+/* **************************** */
+/* BELOWE 992PX(;ANDSCAP TABLET) */
+/* **************************** */
+
+@media (max-width: 62em) {
+  html {
+    font-size: 50%;
+  }
+  .header-text {
+    margin-right: 1rem;
+  }
+}
+/* **************************** */
+/* BELOWE 880PX(LANDSCAP TABLET) */
+/* **************************** */
+
+@media (max-width: 55em) {
+  html {
+    font-size: 46%;
+  }
+  header {
+    height: 70vh;
+  }
+  .grid--4-cols {
+    padding: 4rem 6rem;
+  }
+  .header-text {
+    margin-right: 1rem;
+  }
+}
+/* **************************** */
+/* BELOW 707PX (smaller tablet )*/
+/* **************************** */
+@media (max-width: 44em) {
+  html {
+    font-size: 46%;
+  }
+  header {
+    height: 70vh;
+  }
+  .header-text {
+    margin-right: 1rem;
+    margin-left: 8rem;
+  }
+  .grid--4-cols {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 4rem;
+    padding: 4rem 6rem;
+  }
+  .nav-col {
+    grid-row: 2;
+    grid-column: span 2;
+  }
+  .address-col {
+    grid-column: span 3;
+  }
+}

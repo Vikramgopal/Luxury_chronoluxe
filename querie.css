@@ -1,0 +1,124 @@
+/* **************************** */
+/* BELOWE 1200PX(;ANDSCAP TABLET) */
+/* **************************** */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 58.25%;
+  }
+  .header-text {
+    margin: auto 8rem;
+  }
+}
+/* **************************** */
+/* BELOWE 1104PX(LANDSCAP TABLET) */
+/* **************************** */
+
+@media (max-width: 75em) {
+  .grid--4-cols {
+    padding: 4rem 8rem;
+  }
+}
+
+/* **************************** */
+/* BELOWE 944X( TABLET) */
+/* **************************** */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  header {
+    height: 80vh;
+  }
+  .primary-heading {
+    font-size: 3.2rem;
+  }
+  .new-arrival-sectiion {
+    padding: 4.8rem 3.6rem;
+  }
+}
+/* ************************ */
+/* 880PX */
+/* ************************ */
+@media (max-width: 56em) {
+  .features-list--2,
+  .features-list--3,
+  .features-list--1,
+  .features-list--4 {
+    padding: 1rem 1rem;
+  }
+
+  header {
+    width: 100%;
+    height: 80vh;
+  }
+  .nav-list {
+    gap: 11rem;
+  }
+  .header-text {
+    margin: auto 8rem;
+  }
+  .primary-heading {
+    font-size: 2.4rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+  }
+}
+/* **************************** */
+/* BELOW 707PX (smaller tablet )*/
+/* **************************** */
+@media (max-width: 44em) {
+  header {
+    height: 70vh;
+  }
+  .header-text {
+    margin: auto 0 auto 8rem;
+  }
+  .explore-new-arrival {
+    font-size: 1.2rem;
+  }
+  .collections-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .men-collection-grid {
+    grid-row: 1/-1;
+  }
+  .women-collection-grid {
+    grid-column: 2/3;
+  }
+  .silver-collection-grid {
+    grid-column: 3/4;
+  }
+  .new-arrival-sectiion {
+    padding: 4.8rem 2.4rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 4rem;
+  }
+  .nav-col {
+    grid-row: 2;
+    grid-column: span 2;
+  }
+  .address-col {
+    grid-column: span 3;
+  }
+}
+/* **************************** */
+/* BELOW 544PX (phone )*/
+/* **************************** */
+@media (max-width: 34em) {
+  header {
+    height: 50vh;
+  }
+  .new-arrival-sectiion {
+    /* padding: 4.8rem 1rem; */
+  }
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+    /* padding: 0; */
+  }
+}
