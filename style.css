@@ -773,3 +773,9 @@ form p {
     border: none;
   }
 }
+.author {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 5rem;
+}
