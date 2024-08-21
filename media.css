@@ -5,9 +5,14 @@
 @media (max-width: 83em) {
   .grid--4-cols {
     grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    padding: 8rem 8rem;
   }
   .address-col {
-    grid-row: span 2;
+    grid-column: span 2;
+  }
+  .header-text {
+    margin-right: 2rem;
   }
 }
 /* **************************** */
@@ -16,7 +21,7 @@
 
 @media (max-width: 75em) {
   .header-text {
-    margin-right: 0;
+    margin-right: 2rem;
   }
   .grid--4-cols {
     padding: 6rem 8rem;
@@ -24,11 +29,14 @@
 }
 /* **************************** */
 /* BELOWE 992PX(;ANDSCAP TABLET) */
-/* **************************** */
+/* *************************** */
 
 @media (max-width: 62em) {
   html {
-    font-size: 50%;
+    font-size: 54%;
+  }
+  .header-text {
+    margin-left: 8rem;
   }
   .header-text {
     margin-right: 1rem;
@@ -40,7 +48,7 @@
 
 @media (max-width: 55em) {
   html {
-    font-size: 46%;
+    font-size: 56%;
   }
   header {
     height: 70vh;
@@ -49,26 +57,43 @@
     padding: 4rem 6rem;
   }
   .header-text {
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
 }
 /* **************************** */
-/* BELOW 707PX (smaller tablet )*/
+/* BELOW 704PX (smaller tablet )*/
 /* **************************** */
 @media (max-width: 44em) {
   html {
-    font-size: 46%;
+    font-size: 52%;
   }
   header {
     height: 70vh;
   }
   .header-text {
     margin-right: 1rem;
-    margin-left: 8rem;
+    margin-left: 5rem;
   }
+  .primary-heading {
+    font-size: 3rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+  }
+  .collections-grid {
+    height: 55rem;
+  }
+  .collections-grid p {
+    margin-top: 24rem;
+  }
+  .men-collection-grid p {
+    margin-top: 51.5rem;
+  }
+
   .grid--4-cols {
     grid-template-columns: repeat(6, 1fr);
-    gap: 4rem;
+    column-gap: 4rem;
+    row-gap: 8rem;
     padding: 4rem 6rem;
   }
   .nav-col {
@@ -78,4 +103,150 @@
   .address-col {
     grid-column: span 3;
   }
+  .sub-heading {
+    font-size: 3rem;
+  }
+  .features-text p {
+    font-size: 1.4rem;
+  }
+  .features-lists {
+    font-size: 1.8rem;
+  }
+  .features-list--2,
+  .features-list--3 {
+    margin-left: 35%;
+  }
+  .features-list--1,
+  .features-list--4 {
+    margin-left: 15%;
+  }
+  .email {
+    width: 15rem;
+  }
+}
+/* **************************** */
+/* BELOW 544PX (phone )*/
+/* **************************** */
+@media (max-width: 34em) {
+  html {
+    font-size: 50%;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrival-card {
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .watch-img-box {
+    width: 60%;
+  }
+  .explore-new-arrival-box {
+    margin-top: 4.8rem;
+  }
+  .explore-new-arrival {
+    font-size: 1.2rem;
+  }
+  .collections-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50rem;
+  }
+  .collections-grid p {
+    margin-top: 22rem;
+  }
+  .men-collection-grid p {
+    margin-top: 47rem;
+  }
+  .women-collection-grid {
+    grid-column: 2/3;
+  }
+  .silver-collection-grid {
+    grid-column: 3/4;
+  }
+  .watch-features--grid {
+    grid-template-columns: 1fr;
+    background-image: none;
+    background-color: #000;
+  }
+  .features-text {
+    text-align: center;
+    margin: 5rem 5rem;
+    padding: 0;
+  }
+  .features-img {
+    display: none;
+  }
+  .features {
+    background-color: #000;
+  }
+  .features-list-items {
+    background-image: url(images/features-img-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    font-size: 1.8rem;
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .feautures-list-empty {
+    display: block;
+  }
+  .features-lists {
+    align-self: center;
+    justify-self: center;
+    font-size: 2rem;
+  }
+  .sub-heading {
+    font-size: 3.4rem;
+  }
+  .features-text p {
+    font-size: 1.6rem;
+  }
+  .features-list--2,
+  .features-list--3 {
+    margin-left: 50%;
+  }
+  .features-list--1,
+  .features-list--4 {
+    margin-left: 25%;
+  }
+  .section-feautured {
+    padding-top: 22rem;
+  }
+  .grid--4-cols {
+    column-gap: 4rem;
+    row-gap: 4rem;
+    padding: 4rem 2rem;
+  }
+  .email {
+    width: 10rem;
+  }
+
+  header {
+    height: 50vh;
+  }
+
+  .top-nav-list {
+    display: none;
+  }
+  .nav-list {
+    display: none;
+  }
+  header {
+    display: block;
+    border: none;
+  }
+}
+.author {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 5rem;
 }
